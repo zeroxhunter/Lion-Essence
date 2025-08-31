@@ -1,142 +1,198 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lion Essence Perfumería</title>
-<style>
-  body { font-family: Arial, sans-serif; margin:0; padding:0; background-color:#fffdfa; color:#333; }
-  h1, h2 { margin: 10px 0; }
-  h1 { font-size:2em; }
-  .section-title { font-family: 'Georgia', serif; font-size: 1.8em; margin:20px 0; }
-  .category { font-family: 'Verdana', sans-serif; font-size: 1.3em; margin:15px 0; }
-  .products { display:flex; flex-wrap: wrap; gap:20px; justify-content:center; margin-bottom:30px; }
-  .product { width:200px; text-align:center; }
-  .product img { width:100%; border-radius:10px; }
-  .buy-btn { display:block; margin-top:10px; padding:10px; background-color:#ffeaaa; border-radius:5px; text-decoration:none; color:#000; font-weight:bold; }
-  .price { font-weight:bold; margin-top:5px; }
-  .whatsapp { text-align:center; padding:15px; background-color:#f8f4e5; margin-bottom:20px; border-radius:10px; }
-</style>
+    <meta charset="UTF-8">
+    <title>Lion Essence Perfumería ✨</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffdf5; /* Blanco con toque de amarillo */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+        .socials {
+            margin-top: 15px;
+        }
+        .socials a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #444;
+        }
+        section {
+            margin: 40px 20px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .category-photo {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .category-photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .product-name {
+            font-weight: bold;
+        }
+        .product-price {
+            margin-left: 10px;
+        }
+        .buy-button {
+            background-color: #f4c542;
+            border: none;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-<!-- WhatsApp al inicio -->
-<div class="whatsapp">
-  Recuerda unirte a nuestro grupo de WhatsApp para mantenerte al tanto de nuestros productos!<br>
-  <a href="https://chat.whatsapp.com/LuJZhG2jRkt7Ym9QWFQGWQ?mode=ems_copy_c" target="_blank" style="color:#075E54; font-weight:bold; text-decoration:none;">Únete aquí</a>
-</div>
+<header>
+    <h1>Lion Essence 🦁✨</h1>
+    <p>¡Bienvenid@ a Lion Essence Perfumería! ✨<br>
+    Aquí, cada fragancia cuenta una historia y despierta emociones únicas.<br>
+    Déjate envolver por la elegancia de nuestros aromas cuidadosamente seleccionados 🌸.<br>
+    Gracias por permitirnos acompañarte en este viaje de sensaciones inolvidables 💫</p>
+    
+    <div class="socials">
+        <a href="https://chat.whatsapp.com/LuJZhG2jRkt7Ym9QWFQGWQ?mode=ems_copy_c" target="_blank">Únete a nuestro grupo de WhatsApp 📲</a>
+        <a href="https://www.facebook.com/share/19UXno1NNm/" target="_blank">Únete a nuestro grupo de Facebook 📘</a>
+    </div>
+</header>
 
-<!-- Descripción -->
-<section style="text-align:center; padding: 20px;">
-  <h1>¡Bienvenid@ a Lion Essence Perfumería! ✨</h1>
-  <p>Aquí, cada fragancia cuenta una historia y despierta emociones únicas.<br>
-     Déjate envolver por la elegancia de nuestros aromas cuidadosamente seleccionados 🌸.<br>
-     Gracias por permitirnos acompañarte en este viaje de sensaciones inolvidables 💫
-  </p>
-</section>
-
-<!-- Fraîche -->
-<section id="fraiche" style="text-align:center; padding: 20px;">
-  <h2 class="section-title">🪷 Fraîche 🪷</h2>
-  <img src="" alt="Fraîche foto" style="width:300px; border-radius:10px; margin-bottom:20px;">
-  <div class="products">
-    <!-- Lista de perfumes con precio 3800$ -->
-    <div class="product"><span>Blue de Chanel</span><div class="price">$3800</div></div>
-    <div class="product"><span>Ángel</span><div class="price">$3800</div></div>
-    <div class="product"><span>Poeme</span><div class="price">$3800</div></div>
-    <div class="product"><span>Jadore</span><div class="price">$3800</div></div>
-    <div class="product"><span>360</span><div class="price">$3800</div></div>
-    <div class="product"><span>Quinta avenida</span><div class="price">$3800</div></div>
-    <div class="product"><span>Paris Hilton</span><div class="price">$3800</div></div>
-    <div class="product"><span>Pitbull Man</span><div class="price">$3800</div></div>
-    <div class="product"><span>Coco Chanel</span><div class="price">$3800</div></div>
-    <div class="product"><span>Katy Perry</span><div class="price">$3800</div></div>
-    <div class="product"><span>Diamonds</span><div class="price">$3800</div></div>
-    <div class="product"><span>Edén</span><div class="price">$3800</div></div>
-    <div class="product"><span>Red Door</span><div class="price">$3800</div></div>
-    <div class="product"><span>Eros de vercase</span><div class="price">$3800</div></div>
-    <div class="product"><span>D 360</span><div class="price">$3800</div></div>
-    <div class="product"><span>C 360</span><div class="price">$3800</div></div>
-    <div class="product"><span>Agua de Gio</span><div class="price">$3800</div></div>
-    <div class="product"><span>Glamour Moschino</span><div class="price">$3800</div></div>
-    <div class="product"><span>212 Men</span><div class="price">$3800</div></div>
-    <div class="product"><span>Animal</span><div class="price">$3800</div></div>
-    <div class="product"><span>Isimiyaky</span><div class="price">$3800</div></div>
-    <div class="product"><span>Charlie Blue</span><div class="price">$3800</div></div>
-    <div class="product"><span>Nina Ricci</span><div class="price">$3800</div></div>
-    <div class="product"><span>Chanel 5</span><div class="price">$3800</div></div>
-    <div class="product"><span>Diamante blanco</span><div class="price">$3800</div></div>
-  </div>
-</section>
-
-<!-- Antonio Banderas -->
-<section id="antonio-banderas" style="text-align:center; padding:20px;">
-  <h2 class="section-title">💫 Antonio Banderas 💫</h2>
-  <div class="products">
-    <div class="product">
-      <img src="" alt="Foto 1 Antonio Banderas">
-      <span>King of Seduction</span><div class="price">$3000</div>
-      <span>Blue Seduction</span><div class="price">$3000</div>
+<!-- Sección Fraîche -->
+<section>
+    <h2>🪷 Fraîche 🪷</h2>
+    <div class="category-photo">
+        <img src="URL_DE_LA_FOTO_AQUI" alt="Fraîche">
     </div>
     <div class="product">
-      <img src="" alt="Foto 2 Antonio Banderas">
-      <span>Her Secret</span><div class="price">$3000</div>
+        <span class="product-name">Blue de Chanel</span>
+        <span class="product-price">$3800</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Blue%20de%20Chanel%22" target="_blank">Comprar</a>
     </div>
     <div class="product">
-      <img src="" alt="Foto 3 Antonio Banderas">
-      <span>Queen of Seduction</span><div class="price">$3000</div>
+        <span class="product-name">Ángel</span>
+        <span class="product-price">$3800</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Ángel%22" target="_blank">Comprar</a>
     </div>
     <div class="product">
-      <img src="" alt="Foto 4 Antonio Banderas">
-      <span>V.I.P</span><div class="price">$3000</div>
-      <span>Seductor</span><div class="price">$3000</div>
-      <span>Golden Secret</span><div class="price">$3000</div>
+        <span class="product-name">Poeme</span>
+        <span class="product-price">$3800</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Poeme%22" target="_blank">Comprar</a>
     </div>
-  </div>
+    <!-- Agrega los demás perfumes de Fraîche aquí con el mismo formato -->
 </section>
 
-<!-- Perfumes Clásicos -->
-<section id="perfumes-clasicos" style="text-align:center; padding: 20px; background-color:#fefbf5;">
-  <h2 style="font-family: 'Georgia', serif; font-size: 2.2em;">🌿 Perfumes Clásicos 🌿</h2>
-  <div class="products">
-    <!-- 16 divs para fotos -->
-    <!-- Reemplaza src="" con tu URL -->
-    <div class="product"><img src="" alt="Perfume 1"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 2"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 3"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 4"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 5"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 6"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 7"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 8"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 9"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 10"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 11"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 12"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 13"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 14"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 15"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-    <div class="product"><img src="" alt="Perfume 16"><a href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clásicos." target="_blank" class="buy-btn">Comprar</a></div>
-  </div>
+<!-- Sección Antonio Banderas -->
+<section>
+    <h2>💫 Antonio Banderas 💫</h2>
+    <div class="category-photo">
+        <img src="URL_FOTO_1" alt="Antonio Banderas 1">
+    </div>
+    <div class="product">
+        <span class="product-name">King of Seduction</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22King%20of%20Seduction%22" target="_blank">Comprar</a>
+    </div>
+    <div class="product">
+        <span class="product-name">Blue Seduction</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Blue%20Seduction%22" target="_blank">Comprar</a>
+    </div>
+
+    <div class="category-photo">
+        <img src="URL_FOTO_2" alt="Antonio Banderas 2">
+    </div>
+    <div class="product">
+        <span class="product-name">Her Secret</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Her%20Secret%22" target="_blank">Comprar</a>
+    </div>
+
+    <div class="category-photo">
+        <img src="URL_FOTO_3" alt="Antonio Banderas 3">
+    </div>
+    <div class="product">
+        <span class="product-name">Queen of Seduction</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Queen%20of%20Seduction%22" target="_blank">Comprar</a>
+    </div>
+
+    <div class="category-photo">
+        <img src="URL_FOTO_4" alt="Antonio Banderas 4">
+    </div>
+    <div class="product">
+        <span class="product-name">V.I.P</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22V.I.P%22" target="_blank">Comprar</a>
+    </div>
+    <div class="product">
+        <span class="product-name">Seductor</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Seductor%22" target="_blank">Comprar</a>
+    </div>
+    <div class="product">
+        <span class="product-name">Golden Secret</span>
+        <span class="product-price">$3000</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Golden%20Secret%22" target="_blank">Comprar</a>
+    </div>
 </section>
 
-<!-- También podría interesarte -->
-<section id="tambien-interes" style="text-align:center; padding:20px;">
-  <h2 class="section-title">💎 También podría interesarte 💎</h2>
-  <img src="" alt="Foto 1" style="width:300px; border-radius:10px; margin-bottom:20px;">
-  <div class="products">
-    <!-- Lista de perfumes a 2500$ -->
-    <div class="product"><span>Diamante blanco</span><div class="price">$2500</div></div>
-    <div class="product"><span>Victoria secret</span><div class="price">$2500</div></div>
-    <div class="product"><span>Carolina herrera</span><div class="price">$2500</div></div>
-    <div class="product"><span>Saint Lauren</span><div class="price">$2500</div></div>
-    <div class="product"><span>One million</span><div class="price">$2500</div></div>
-    <div class="product"><span>Paloma Picasso</span><div class="price">$2500</div></div>
-    <div class="product"><span>Katy Perry</span><div class="price">$2500</div></div>
-    <div class="product"><span>Jadore</span><div class="price">$2500</div></div>
-    <div class="product"><span>Ángel</span><div class="price">$2500</div></div>
-    <div class="product"><span>Dior Adicton</span><div class="price">$2500</div></div>
-  </div>
+<!-- Sección Perfumes Clásicos -->
+<section>
+    <h2>🌟 Perfumes Clásicos 🌟</h2>
+    <div class="category-photo">
+        <img src="URL_FOTO_CLASICOS" alt="Perfumes Clásicos">
+    </div>
+    <!-- Aquí van 16 productos individuales con botón de comprar -->
+    <div class="product">
+        <span class="product-name">Producto 1</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20uno%20de%20los%20perfumes%20Clasicos" target="_blank">Comprar</a>
+    </div>
+    <!-- Repite para los 16 productos, solo cambia "Producto 1" por cada producto -->
+</section>
+
+<!-- Sección También podría interesarte -->
+<section>
+    <h2>✨ También podría interesarte ✨</h2>
+    <div class="category-photo">
+        <img src="URL_FOTO_INTERES" alt="También podría interesarte">
+    </div>
+    <div class="product">
+        <span class="product-name">Diamante blanco</span>
+        <span class="product-price">$2500</span>
+        <a class="buy-button" href="https://wa.me/5356933351?text=Hola,%20estoy%20interesado%20en%20este%20producto:%20%22Diamante%20blanco%22" target="_blank">Comprar</a>
+    </div>
+    <!-- Agrega los demás perfumes con el mismo formato -->
 </section>
 
 </body>
