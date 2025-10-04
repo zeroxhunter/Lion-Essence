@@ -1,185 +1,263 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lion Essence Perfumería</title>
-<style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>★ Nue ★</title>
+  <style>
     body {
-        font-family: Arial, sans-serif;
-        background-color: #fffdea;
-        margin: 0;
-        padding: 0;
-        color: #333;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
     }
     header {
-        text-align: center;
-        padding: 30px 10px;
-        background-color: #fef7e0;
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
     }
-    header h1 {
-        font-size: 2.5em;
-        margin: 0;
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem;
     }
-    header p {
-        font-size: 1.2em;
-        margin-top: 10px;
-    }
-    .join-groups {
-        text-align: center;
-        margin: 20px 0;
-        font-size: 1.1em;
-    }
-    .join-groups a {
-        text-decoration: none;
-        color: #fff;
-        background-color: #25d366;
-        padding: 10px 15px;
-        border-radius: 5px;
-        margin: 0 5px;
-        display: inline-block;
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
     }
     section {
-        padding: 30px 10px;
-        text-align: center;
+      padding: 2rem;
     }
-    section h2 {
-        font-size: 2em;
-        margin-bottom: 20px;
+    details summary {
+      font-size: 1.3rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      user-select: none;
     }
-    section img {
-        max-width: 200px;
-        border-radius: 10px;
-        margin: 20px auto;
-        display: block;
+    details summary:hover {
+      color: #25d366;
     }
-    .product {
-        display: inline-block;
-        margin: 15px;
-        text-align: center;
-        vertical-align: top;
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
     }
-    .product p {
-        margin: 5px 0;
-        font-weight: bold;
+    .producto {
+      background-color: white;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .product a {
-        display: inline-block;
-        padding: 5px 12px;
-        background-color: #25d366;
-        color: white;
-        border-radius: 5px;
-        text-decoration: none;
+    .producto img {
+      max-width: 100%;
+      border-radius: 8px;
     }
-    .category {
-        margin-top: 40px;
+    .producto h3 {
+      margin: 0.5rem 0;
     }
-</style>
+    .producto p {
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+    .boton-compra {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #25d366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .boton-compra:hover {
+      background-color: #1ebe57;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <h1>🦁 Lion Essence 🦁</h1>
-    <p>¡Bienvenid@ a Lion Essence Perfumería! ✨<br>
-       Aquí, cada fragancia cuenta una historia y despierta emociones únicas.<br>
-       Déjate envolver por la elegancia de nuestros aromas cuidadosamente seleccionados 🌸.<br>
-       Gracias por permitirnos acompañarte en este viaje de sensaciones inolvidables 💫
-    </p>
-</header>
+  <header>
+    <h1>★ Nue ★</h1>
+    <p>Perfumería y más</p>
+  </header>
 
-<div class="join-groups">
-    Recuerda unirte a nuestros grupos para mantenerte al tanto de nuestros productos!<br>
-    <a href="https://chat.whatsapp.com/LuJZhG2jRkt7Ym9QWFQGWQ?mode=ems_copy_c" target="_blank">WhatsApp</a>
-    <a href="https://www.facebook.com/share/19UXno1NNm/" target="_blank" style="background-color:#3b5998;">Facebook</a>
-</div>
+  <!-- Menú principal -->
+  <nav>
+    <a href="#perfumeria">Perfumería</a>
+    <a href="#accesorios">Accesorios</a>
+  </nav>
 
-<!-- Sección Perfumes Clásicos -->
-<section class="category">
-    <h2>✨ Perfumes Clásicos ✨</h2>
-    <div class="product"><img src="https://i.postimg.cc/gxjnd8Mm/1.jpg" alt="Producto 1"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+1+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/zyxKFqQX/Imagen-de-Whats-App-2025-08-31-a-las-18-07-41-de283b86.jpg" alt="Producto 2"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+2+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/bGMn4387/Imagen-de-Whats-App-2025-08-31-a-las-18-07-42-bf30c170.jpg" alt="Producto 3"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+3+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/d7DdWzMR/Imagen-de-Whats-App-2025-08-31-a-las-18-07-43-109a9789.jpg" alt="Producto 4"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+4+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/18mDF8Jj/Imagen-de-Whats-App-2025-08-31-a-las-18-07-44-fbc5eb7f.jpg" alt="Producto 5"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+5+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/30QvxNk9/Imagen-de-Whats-App-2025-08-31-a-las-18-07-45-084271e0.jpg" alt="Producto 6"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+6+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/8fdrJGWG/Imagen-de-Whats-App-2025-08-31-a-las-18-07-45-30f12290.jpg" alt="Producto 7"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+7+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/dkyCFrVL/Imagen-de-Whats-App-2025-08-31-a-las-18-07-47-b2672f11.jpg" alt="Producto 8"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+8+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/jCyfkH11/Imagen-de-Whats-App-2025-08-31-a-las-18-07-47-be8c3296.jpg" alt="Producto 9"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+9+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/jLX7RstQ/Imagen-de-Whats-App-2025-08-31-a-las-18-07-48-6777dfde.jpg" alt="Producto 10"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+10+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/xcYmrkD1/Imagen-de-Whats-App-2025-08-31-a-las-18-07-49-bd55f462.jpg" alt="Producto 11"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+11+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/DWWJQLsB/Imagen-de-Whats-App-2025-08-31-a-las-18-07-50-456c799c.jpg" alt="Producto 12"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+12+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/PC58xBqG/Imagen-de-Whats-App-2025-08-31-a-las-18-07-50-6c9ee27b.jpg" alt="Producto 13"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+13+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/YvDLmb4v/Imagen-de-Whats-App-2025-08-31-a-las-18-07-51-45810ce9.jpg" alt="Producto 14"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+14+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/NyWydFkY/Imagen-de-Whats-App-2025-08-31-a-las-18-07-52-ae30e782.jpg" alt="Producto 15"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+15+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
-    <div class="product"><img src="https://i.postimg.cc/mzCPJ4m9/Imagen-de-Whats-App-2025-08-31-a-las-18-07-53-3ad95558.jpg" alt="Producto 16"><p>$5800</p><a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+16+de+Perfumes+Clásicos" target="_blank">Comprar</a></div>
+  <!-- SECCIÓN PERFUMERÍA -->
+  <section id="perfumeria">
+    <details>
+      <summary>Perfumería ⬇</summary>
+      <div class="product">
+          <div class="product">
+        <img src="https://i.postimg.cc/gxjnd8Mm/1.jpg" alt="Producto 1">
+        <h3>Producto 1</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+1+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/zyxKFqQX/Imagen-de-Whats-App-2025-08-31-a-las-18-07-41-de283b86.jpg" alt="Producto 2">
+        <h3>Producto 2</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+2+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/bGMn4387/Imagen-de-Whats-App-2025-08-31-a-las-18-07-42-bf30c170.jpg" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+3+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/d7DdWzMR/Imagen-de-Whats-App-2025-08-31-a-las-18-07-43-109a9789.jpg" alt="Producto 4">
+        <h3>Producto 4</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+4+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/18mDF8Jj/Imagen-de-Whats-App-2025-08-31-a-las-18-07-44-fbc5eb7f.jpg" alt="Producto 5">
+        <h3>Producto 5</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+5+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/30QvxNk9/Imagen-de-Whats-App-2025-08-31-a-las-18-07-45-084271e0.jpg" alt="Producto 6">
+        <h3>Producto 6</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+6+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/8fdrJGWG/Imagen-de-Whats-App-2025-08-31-a-las-18-07-45-30f12290.jpg" alt="Producto 7">
+        <h3>Producto 7</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+7+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/dkyCFrVL/Imagen-de-Whats-App-2025-08-31-a-las-18-07-47-b2672f11.jpg" alt="Producto 8">
+        <h3>Producto 8</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+8+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/jCyfkH11/Imagen-de-Whats-App-2025-08-31-a-las-18-07-47-be8c3296.jpg" alt="Producto 9">
+        <h3>Producto 9</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+9+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/jLX7RstQ/Imagen-de-Whats-App-2025-08-31-a-las-18-07-48-6777dfde.jpg" alt="Producto 10">
+        <h3>Producto 10</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+10+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/xcYmrkD1/Imagen-de-Whats-App-2025-08-31-a-las-18-07-49-bd55f462.jpg" alt="Producto 11">
+        <h3>Producto 11</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+11+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/DWWJQLsB/Imagen-de-Whats-App-2025-08-31-a-las-18-07-50-456c799c.jpg" alt="Producto 12">
+        <h3>Producto 12</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+12+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/PC58xBqG/Imagen-de-Whats-App-2025-08-31-a-las-18-07-50-6c9ee27b.jpg" alt="Producto 13">
+        <h3>Producto 13</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+13+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/YvDLmb4v/Imagen-de-Whats-App-2025-08-31-a-las-18-07-51-45810ce9.jpg" alt="Producto 14">
+        <h3>Producto 14</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+14+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/NyWydFkY/Imagen-de-Whats-App-2025-08-31-a-las-18-07-52-ae30e782.jpg" alt="Producto 15">
+        <h3>Producto 15</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+15+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
+
+      <div class="product">
+        <img src="https://i.postimg.cc/mzCPJ4m9/Imagen-de-Whats-App-2025-08-31-a-las-18-07-53-3ad95558.jpg" alt="Producto 16">
+        <h3>Producto 16</h3>
+        <p>$5800</p>
+        <a href="https://wa.me/5356933351?text=Hola,+me+interesa+el+Producto+16+de+Perfumes+Clásicos" target="_blank">Comprar</a>
+      </div>
 </section>
 
-<!-- Sección Antonio Banderas -->
-<section class="category">
-    <h2>🌟 Antonio Banderas 🌟</h2>
-    <img src="https://i.postimg.cc/zHH09V9j/a-b-1.jpg" alt="Antonio Banderas 1">
-    <div class="product"><p>King of Seduction - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+King+of+Seduction" target="_blank">Comprar</a></div>
-    <div class="product"><p>Blue Seduction - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Blue+Seduction" target="_blank">Comprar</a></div>
+        <!-- 👉 Aquí agregas los demás perfumes igual -->
 
-    <img src="https://i.postimg.cc/dLd56ZRQ/a-b-2.jpg" alt="Antonio Banderas 2">
-    <div class="product"><p>Her Secret - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Her+Secret" target="_blank">Comprar</a></div>
+      </div>
+    </details>
+  </section>
 
-    <img src="https://i.postimg.cc/kD21VpBb/a-b-3.jpg" alt="Antonio Banderas 3">
-    <div class="product"><p>Queen of Seduction - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Queen+of+Seduction" target="_blank">Comprar</a></div>
+  <!-- SECCIÓN ACCESORIOS -->
+  <section id="accesorios">
+    <details>
+      <summary>Accesorios ⬇</summary>
+      <div class="productos">
 
-    <img src="https://i.postimg.cc/fk1HYf9g/a-b-4.jpg" alt="Antonio Banderas 4">
-    <div class="product"><p>V.I.P - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+VIP" target="_blank">Comprar</a></div>
-    <div class="product"><p>Seductor - $3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Seductor" target="_blank">Comprar</a></div>
-    <div class="product"><p>Golden Secret - 3200</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Golden+Secret" target="_blank">Comprar</a></div>
-</section>
+        <div class="producto">
+          <img src="<a href="https://postimg.cc/RJSMpJSq" target="_blank"><img src="https://i.postimg.cc/RJSMpJSq/Imagen-de-Whats-App-2025-10-03-a-las-20-30-09-20da1891.jpg" alt="Imagen-de-Whats-App-2025-10-03-a-las-20-30-09-20da1891"/></a><br/><br/>
 
-<!-- Sección Fraîche -->
-<section class="category">
-    <h2>🪷 Fraîche 🪷</h2>
-    <img src="https://i.postimg.cc/yDHvb6nm/fraiche.jpg" alt="Fraîche">
-    
-    <div class="product"><p>Blue de Chanel - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Blue+de+Chanel%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Ángel - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Ángel%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Poeme - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Poeme%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Jadore - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Jadore%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>360 - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22360%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Quinta avenida - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Quinta+avenida%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Paris Hilton - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Paris+Hilton%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Pitbull Man - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Pitbull+Man%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Coco Chanel - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Coco+Chanel%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Katy Perry - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Katy+Perry%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Diamonds - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Diamonds%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Edén - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Edén%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Red Door - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Red+Door%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Eros de vercase - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Eros+de+vercase%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>D 360 - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22D+360%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>C 360 - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22C+360%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Agua de Gio - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Agua+de+Gio%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Glamour Moschino - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Glamour+Moschino%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>212 Men - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22212+Men%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Animal - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Animal%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Isimiyaky - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Isimiyaky%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Charlie Blue - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Charlie+Blue%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Nina Ricci - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Nina+Ricci%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Chanel 5 - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Chanel+5%22" target="_blank">Comprar</a></div>
-    <div class="product"><p>Diamante blanco - $3800</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en+el+producto:+%22Diamante+blanco%22" target="_blank">Comprar</a></div>
-</section>
+          <h3>Monedero</h3>
+          <p>Precio: $1300</p>
+          <a href="https://wa.me/5356933351?text=Hola, quiero comprar un Monedero" target="_blank" class="boton-compra">Comprar por WhatsApp</a>
+        </div>
 
-<!-- Sección También podría interesarte -->
-<section class="category">
-    <h2>💖 También podría interesarte 💖</h2>
-    <img src="https://i.postimg.cc/cvBXyq5V/tambien-podria-interesarte.jpg" alt="También podría interesarte">
-    <div class="product"><p>Diamante blanco - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Diamante+blanco" target="_blank">Comprar</a></div>
-    <div class="product"><p>Victoria secret - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Victoria+Secret" target="_blank">Comprar</a></div>
-    <div class="product"><p>Carolina herrera - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Carolina+Herrera" target="_blank">Comprar</a></div>
-    <div class="product"><p>Saint Lauren - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Saint+Lauren" target="_blank">Comprar</a></div>
-    <div class="product"><p>One million - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+One+Million" target="_blank">Comprar</a></div>
-    <div class="product"><p>Paloma Picasso - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Paloma+Picasso" target="_blank">Comprar</a></div>
-    <div class="product"><p>Katy Perry - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Katy+Perry" target="_blank">Comprar</a></div>
-    <div class="product"><p>Jadore - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Jadore" target="_blank">Comprar</a></div>
-    <div class="product"><p>Ángel - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Ángel" target="_blank">Comprar</a></div>
-    <div class="product"><p>Dior Adicto - $2500</p><a href="https://wa.me/5356933351?text=Hola,+estoy+interesado+en:+Dior+Adicto" target="_blank">Comprar</a></div>
-</section>
+        <div class="producto">
+          <img src="<a href="https://postimg.cc/8fp1Xfp5" target="_blank"><img src="https://i.postimg.cc/8fp1Xfp5/Imagen-de-Whats-App-2025-10-03-a-las-20-30-10-aca3687a.jpg" alt="Imagen-de-Whats-App-2025-10-03-a-las-20-30-10-aca3687a"/></a><br/><br/>
+          <h3>Reloj Digital</h3>
+          <p>Precio: $1400</p>
+          <a href="https://wa.me/5356933351?text=Hola, quiero comprar un Reloj Digital" target="_blank" class="boton-compra">Comprar por WhatsApp</a>
+        </div>
+
+        <div class="producto">
+          <img src="<a href="https://postimg.cc/zHzJ2HzG" target="_blank"><img src="https://i.postimg.cc/zHzJ2HzG/Imagen-de-Whats-App-2025-10-03-a-las-20-23-34-08b5c749.jpg" alt="Imagen-de-Whats-App-2025-10-03-a-las-20-23-34-08b5c749"/></a><br/><br/>
+
+          <h3>Gorra</h3>
+          <p>Precio: $2200</p>
+          <a href="https://wa.me/5356933351?text=Hola, quiero comprar una Gorra" target="_blank" class="boton-compra">Comprar por WhatsApp</a>
+        </div>
+
+        <div class="producto">
+          <img src="<a href="https://postimg.cc/4HfJ2Hfy" target="_blank"><img src="https://i.postimg.cc/4HfJ2Hfy/Imagen-de-Whats-App-2025-10-03-a-las-20-23-34-bb35f995.jpg" alt="Imagen-de-Whats-App-2025-10-03-a-las-20-23-34-bb35f995"/></a><br/><br/>
+
+          <h3>Juego para niñas</h3>
+          <p>Precio: $4500</p>
+          <a href="https://wa.me/5356933351?text=Hola, quiero comprar un Juego para niñas" target="_blank" class="boton-compra">Comprar por WhatsApp</a>
+        </div>
+
+      </div>
+    </details>
+  </section>
 
 </body>
 </html>
